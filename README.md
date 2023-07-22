@@ -17,20 +17,6 @@ The database consist of:
 • 1 stored procedure,
 • 1 trigger and assertion
 
-• This is how product information is inserted with:
-Insert Into Product(genre, price, product_id, title) values (...)
-• movie information is inserted with:
-Insert Into Movie(director, country, product_id) values (...)
-• music information is inserted with:
-Insert Into Music(album, artist, product_id) values (...)
-• book information is inserted with:
-Insert Into Book(case_type, author, product_id) values (...)
-• staff information is inserted with:
-Insert Into Staff(staff_id, first_name, last_name, job_title, bank_name, acc_num) values (...)
-• customer information is inserted with:
-Insert into Customer(customer_id, customer_name, contact_number, email, adress) values (...)
-• Tables of Customer, Product, Staff, Payment, Book, Movie, Music, Purchase, Manages and Keep records are created with:
-
 CREATE TABLE Customer
 (
 customer_id INT NOT NULL,
@@ -60,6 +46,7 @@ bank_name VARCHAR(50) NOT NULL,
 acc_num INT NOT NULL,
 PRIMARY KEY (staff_id)
 );
+
 CREATE TABLE Payment
 (
 pay_date DATE NOT NULL,
@@ -67,6 +54,7 @@ pay_amt INT NOT NULL,
 payment_id INT NOT NULL,
 PRIMARY KEY (payment_id)
 );
+
 CREATE TABLE Book
 (
 case_type VARCHAR(50) NOT NULL,
@@ -75,6 +63,7 @@ product_id INT NOT NULL,
 PRIMARY KEY (product_id),
 FOREIGN KEY (product_id) REFERENCES Product(product_id)
 );
+
 CREATE TABLE Movie
 (
 director VARCHAR(100) NOT NULL,
@@ -83,6 +72,7 @@ product_id INT NOT NULL,
 PRIMARY KEY (product_id),
 FOREIGN KEY (product_id) REFERENCES Product(product_id)
 );
+
 CREATE TABLE Music
 (
 album VARCHAR(100) NOT NULL,
@@ -91,6 +81,7 @@ product_id INT NOT NULL,
 PRIMARY KEY (product_id),
 FOREIGN KEY (product_id) REFERENCES Product(product_id)
 );
+
 CREATE TABLE purchase
 (
 customer_id INT NOT NULL,
@@ -99,6 +90,7 @@ PRIMARY KEY (customer_id, product_id),
 FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
 FOREIGN KEY (product_id) REFERENCES Product(product_id)
 );
+
 CREATE TABLE manages
 (
 staff_id INT NOT NULL,
@@ -107,6 +99,7 @@ PRIMARY KEY (staff_id, payment_id),
 FOREIGN KEY (staff_id) REFERENCES Staff(staff_id),
 FOREIGN KEY (payment_id) REFERENCES Payment(payment_id)
 );
+
 CREATE TABLE keep_records
 (
 staff_id INT NOT NULL,
