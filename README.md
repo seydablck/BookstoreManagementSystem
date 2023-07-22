@@ -16,6 +16,7 @@ The database consist of:
 • 3 views,
 • 1 stored procedure,
 • 1 trigger and assertion
+
 • This is how product information is inserted with:
 Insert Into Product(genre, price, product_id, title) values (...)
 • movie information is inserted with:
@@ -29,6 +30,7 @@ Insert Into Staff(staff_id, first_name, last_name, job_title, bank_name, acc_num
 • customer information is inserted with:
 Insert into Customer(customer_id, customer_name, contact_number, email, adress) values (...)
 • Tables of Customer, Product, Staff, Payment, Book, Movie, Music, Purchase, Manages and Keep records are created with:
+
 CREATE TABLE Customer
 (
 customer_id INT NOT NULL,
@@ -38,6 +40,7 @@ email VARCHAR(150) NOT NULL,
 adress VARCHAR(150) NOT NULL,
 PRIMARY KEY (customer_id)
 );
+
 CREATE TABLE Product
 (
 genre VARCHAR(50) NOT NULL,
@@ -46,6 +49,7 @@ product_id INT NOT NULL,
 title VARCHAR(150) NOT NULL,
 PRIMARY KEY (product_id)
 );
+
 CREATE TABLE Staff
 (
 staff_id INT NOT NULL,
