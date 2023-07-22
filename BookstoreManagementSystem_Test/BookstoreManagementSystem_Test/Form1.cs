@@ -15,7 +15,7 @@ namespace BookstoreManagementSystem_Test
 
     public partial class Form1 : Form
     {
-        public string connectionString = "Data Source=LAPTOP-CKAVMQ4J\\SQLEXPRESS;Initial Catalog=Bookstore;Integrated Security=True";
+        public string connectionString = "YOUR CONNECTION STRING";
 
         public Form1()
         {
