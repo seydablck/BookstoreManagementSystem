@@ -3,6 +3,7 @@
 NOTE:
 
 THE GOAL OF PROJECT
+
 The main purpose of designing a bookstore management application is to develop a system that enables the recording, 
 altering, showing and managing of products such as books, movies, music and their attributes, staff, customer, 
 payment information and their attributes, together with their relationships with each other. 
@@ -10,6 +11,7 @@ This database management application will significantly contribute to the knowle
 not only ensuring that staff, products, customers and their payment information can be safely stored and linked.
 
 CONSISTATION OF DATABASE
+
 The database consist of:
 • 7 tables,
 • 4 relationships,
