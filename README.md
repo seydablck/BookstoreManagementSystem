@@ -112,6 +112,7 @@ FOREIGN KEY (product_id) REFERENCES Product(product_id)
 );
 
 IMPLEMENTATION
+
 Project is implemented using C# language.
 The application has:
 • 3 insert statement
