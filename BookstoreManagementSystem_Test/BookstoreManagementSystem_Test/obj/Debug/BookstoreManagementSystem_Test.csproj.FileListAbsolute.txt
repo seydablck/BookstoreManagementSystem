@@ -1,0 +1,11 @@
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.csproj.SuggestedBindingRedirects.cache
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.Form1.resources
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.Properties.Resources.resources
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.csproj.GenerateResource.cache
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\bin\Debug\BookstoreManagementSystem_Test.exe.config
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\bin\Debug\BookstoreManagementSystem_Test.exe
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\bin\Debug\BookstoreManagementSystem_Test.pdb
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.exe
+C:\Users\HP\source\repos\BookstoreManagementSystem_Test\BookstoreManagementSystem_Test\obj\Debug\BookstoreManagementSystem_Test.pdb
