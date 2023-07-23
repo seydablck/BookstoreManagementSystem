@@ -1,6 +1,6 @@
 # BookstoreManagementSystem
 
-NOTE:
+NOTE: If you are planning to integrate this project into your own project, first create the following sql tables in a SQL Server database. Then, write your connection strings in the "connectionString" sections in the App.config and Form1.cs files.
 
 THE GOAL OF PROJECT
 
